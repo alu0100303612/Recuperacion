@@ -1,6 +1,4 @@
 language: java
 sudo: false
-script:
-mvn test
-mvn install -B -V
+script: mvn install -B -V
 jdk: oraclejdk8
